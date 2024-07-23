@@ -21,26 +21,29 @@ Ensure you have the following installed:
   
 ### Installation
 1. Clone the Repository
+   
    `git clone https://github.com/VaishnaviM2003/Restaurant-Name-Generator.git`
    
    `cd Restaurant-Name-Generator`
 
-2. Install Dependencies
+3. Install Dependencies
+   
    `python -m venv env`
    
    `source env/scripts/activate`
    
    `pip install -r requirements.txt`
 
-3. Add Your Cohere API Key
+5. Add Your Cohere API Key
    Update secret_key.py with your Cohere API key:
    `cohereapi_key = "your-cohere-api-key"`
 
 ### Usage
 1. Run the Streamlit App
+   
    `streamlit run main.py`
 
-2. Interact with the Application
+3. Interact with the Application
    Open the provided URL in your web browser. Use the sidebar to select a cuisine type. The app will display a suggested restaurant name and a list of menu items.
 
 ## File Descriptions
