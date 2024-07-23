@@ -36,6 +36,7 @@ Ensure you have the following installed:
 
 5. Add Your Cohere API Key
    Update secret_key.py with your Cohere API key:
+   
    `cohereapi_key = "your-cohere-api-key"`
 
 ### Usage
